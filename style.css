@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300;700&display=swap');
+
+body.landing-page {
+    background-image: url('BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+body.landing-page {
+    text-align: center;
+}
+
+body.landing-page h1 {
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 160px;
+    font-weight: bolder;
+    color: #3f2a13;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    border-bottom: 8px solid #3f2a13;
+    padding-bottom: 0px;
+    display: inline-block;
+    line-height: 1;
+}
+
+body.landing-page p {
+    text-align: center;
+    color: #3f2a13;
+    font-family: 'Langar', cursive;
+    font-size: 35px;
+    margin-top: 1px;
+}
+
+
+body.home-page {
+    background-image: url('BG1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+body.home-page h1 {
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 110px;
+    color: #3f2a13;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 2px;
+    border-bottom: 8px solid #3f2a13;
+    padding-bottom: 0px;
+    display: inline-block;
+    line-height: 1;
+}
+
+body.home-page p {
+    font-family: 'Kreon', sans-serif;
+    font-size: 26px;
+    color: #3f2a13;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+body.home-page .btn {
+    font-size: 27px;
+    margin-top: 100px;
+    margin-left: -400px;
+    margin-bottom: -5px;
+    padding: 10px 30px;
+    text-align: left;
+    color: #3f2a13;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+body.home-page .btn:hover {
+    transform: translateY(-5px);
+}
+
+body.home-page .btn + .btn {
+    margin-top: 10px;
+}
+
+body.contact-page {
+    background-image: url('BG2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+body.contact-page h1 {
+    font-family: 'Kreon', serif;
+    font-size: px;
+    color: #d32f2f;
+    text-align: center;
+    margin-top: 50px;
+}
+
+body.contact-page p {
+    font-family: 'Kreon', serif;
+    font-size: 28px;
+    color: #5d4037;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navigation-buttons {
+    position: fixed;
+    bottom: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+ 
+.navigation-buttons button {
+    margin: 15px 0;
+    padding: 12px 20px;
+    color: #63332F;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Kreon', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.navigation-buttons button::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 6px;
+    background-color: #000000;
+    margin-top: 5px;
+}
